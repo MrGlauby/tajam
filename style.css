@@ -1,0 +1,162 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    margin-left:20%;
+    margin-right:20%;
+}
+
+/*---------------------- gallery ------------------*/
+
+.gallery{
+position: absolute;
+}
+
+.gallery .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px 50px;
+    height: 400px;
+    column-gap: 20PX;
+    justify-content: center;
+     }
+
+.box1{
+    border: solid red;
+    height: 400px;
+    
+}
+.box2 {
+    border: solid rgb(0, 255, 81);
+    height: 400px;
+}
+
+.box3{
+    border: solid rgb(47, 0, 255);
+    height: 400px;
+}
+
+.box4{
+    border: solid rgb(234, 0, 255);
+    height: 400px;
+}
+
+
+/*---------------------- Gallery ende ------------------*/
+
+/*---------------------- contact ------------------*/
+.contactclientes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 4%;
+    width: 90%;
+    column-gap: 200PX;
+    
+}
+
+.contact {
+    border-radius: 5px;
+    padding: 20px;
+    width: 100%;
+  }
+
+
+input[type=text], select {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+
+  textarea{
+    width: 100%;
+    height: 300px;
+  }
+  
+  
+/* ----------------footer CSS GRID -------------------------------*/
+/* <!-- tajam LOGO + OUR STUDIO + STAY IN TOUCH --> */
+
+footer {
+    max-width: 80%;
+    /* bottom: 0; */
+    /* margin-left: 18%; */
+    position: absolute;
+}
+
+.impressum {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* margin-left: 4%;
+    width: 90%; */
+    column-gap: 200PX;
+
+    color: white;
+
+    margin-top: 100px;
+    justify-content: space-around;
+    position: absolute;
+}
+
+/* 3 boxen CSS GRID */
+
+
+/* .tajam1 {
+}
+
+.tajam2 {
+}
+
+.tajam3 {
+} */
+
+.icons {
+    border: solid 1px;
+    padding: 3px;
+    border-radius: 20px;
+}
+
+/* HELP TERMS PROVACY */
+
+
+.footernav{
+    position: absolute;
+    margin-top: 300px;
+    display: flex;
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.footernav nav ul {
+    display: flex;
+    list-style: none;
+    font-size: 1.2em;
+   
+}
+
+.footernav nav ul li {
+    padding: 10px;
+}
+
+.copyright{
+}
+
+img.footerpng {
+    width: 100%;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+
+
